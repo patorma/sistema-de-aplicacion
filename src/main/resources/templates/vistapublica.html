@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8"/>
+
+    <title>Sistema de inicio login</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+
+    <!-- Custom styles for this template -->
+    <link href="#" th:href="@{/css/vista.css}" rel="stylesheet" />
+    <link href="#" th:href="@{/css/style.css}" rel="stylesheet" />
+
+  </head>
+
+  <body>
+	<h1>Vista publica</h1>
+    <div class="container">
+
+     <!--Aca va la vista publica -->
+     
+     Bienvenido invitado
+    
+
+    </div> <!-- /container -->
+    <div class="span1">
+    	 <a href="#" th:href="@{/login?logout}">
+			<button class="btn btn-lg btn-primary btn-block" type="submit"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Salir</button>
+	    </a>
+    </div>
+
+</body>
+</html>
